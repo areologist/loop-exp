@@ -19,5 +19,6 @@ Saved to GitHub because I kind of like the stack: TypeScript 2 + tape + yarn + w
 *   Create the multi engine with Web Worker updates
 *   Write some test scenarios
 *   Instrument the code
+*   Toolbar components for varying parameters
 
 (*May not push future changes to GH since it's mainly here so I can use as seed for one-offs.*)
