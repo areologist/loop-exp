@@ -1,0 +1,37 @@
+{
+  "name": "loop-exp",
+  "version": "1.0.0",
+  "description": "Game loop experiment",
+  "main": "index.js",
+  "author": "areologist",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack && node server.js"
+  },
+  "devDependencies": {
+    "@types/tape": "^4.2.28",
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.24.0",
+    "raw-loader": "^0.5.1",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
+    "tap-nyan": "^0.0.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2",
+    "ts-loader": "^0.9.5",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-notifier": "^1.4.1"
+  },
+  "dependencies": {
+    "@types/react": "^0.14.41",
+    "@types/react-dom": "^0.14.18",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
