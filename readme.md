@@ -2,7 +2,7 @@
 
 ## What is this?
 
-Part of spike: using DevTools to poke and prod at a game loop with and without WebWorker updates to understand performance characteristics.
+Part of spike: using DevTools to poke and prod at a game loop with and without Web Worker updates to understand performance characteristics.
 
 Saved to GitHub because I kind of like the stack: TypeScript 2 + tape + yarn + webpack + react + stylus. Might want to copy it for future throwaway test projects.
 
@@ -16,7 +16,7 @@ Saved to GitHub because I kind of like the stack: TypeScript 2 + tape + yarn + w
 
 *   Add additional test entities
 *   Add a simple "player"
-*   Create the multi engine with WebWorker updates
+*   Create the multi engine with Web Worker updates
 *   Write some test scenarios
 *   Instrument the code
 
