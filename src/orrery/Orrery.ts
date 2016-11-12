@@ -67,24 +67,24 @@ export class Orrery {
         system.position = constrainp(addp(system.position, change), min, max));
   }
 
-    // A stupid simple `main()` function for our testing purposes.
-    private main: FrameRequestCallback = (time: number) => {
-      this.stopMain = window.requestAnimationFrame(this.main);
-      const canvas = this.context.canvas;
+  // A stupid simple `main()` function for our testing purposes.
+  private main: FrameRequestCallback = (time: number) => {
+    this.stopMain = window.requestAnimationFrame(this.main);
+    const canvas = this.context.canvas;
 
-      this.entities.forEach(entity => {
-        entity.update(time - this.lastTime);
-        entity.render(this.context);
-      });
+    this.entities.forEach(entity => {
+      entity.update(time - this.lastTime);
+      entity.render(this.context);
+    });
 
-      // `delta` will be 16.674 ms at 16 fps
-      this.lastTime = time;
-    };
+    // `delta` will be 16.674 ms at 16 fps
+    this.lastTime = time;
+  };
 
-    private resize = () => {
-      // Resize the canvas
-      const canvas = this.context.canvas;
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    };
+  private resize = () => {
+    // Resize the canvas
+    const canvas = this.context.canvas;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  };
 }
