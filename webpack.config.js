@@ -25,9 +25,11 @@ module.exports = {
     module: {
       loaders: [
         { test: /\.tsx?$/, loader: "ts-loader" },
-        { test: /\.html$/, loader: "raw" },
         { test: /\.styl$/, loader: "style!css!stylus" },
-        { test: /\.css$/, loader: "style!css" }
+        { test: /\.css$/, loader: "style!css" },
+        { test: /\.html$/, loader: "raw" },
+        { test: /\.png$/, loader: "file" },
+        { test: /\.json$/, loader: "json" }
       ],
 
       preLoaders: [

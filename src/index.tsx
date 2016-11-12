@@ -4,7 +4,7 @@ import * as ReactDOM from "react-dom";
 import { Game } from "./components/Game";
 
 const gameComponent = (
-  <Game name="Teh Awesome Game" width="900" height="480" />
+  <Game name="Render Loop Experiment" />
 );
 
 ReactDOM.render(gameComponent, document.getElementById("container"));

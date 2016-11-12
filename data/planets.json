@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Mercury",
+    "semiMajorAxis": 0.387,
+    "eccentricity": 0.206,
+    "trueAnomaly": 3.05,
+    "radius": 0.383,
+    "fill": "#898689"
+  },
+  {
+    "name": "Venus",
+    "semiMajorAxis": 0.723,
+    "eccentricity": 0.007,
+    "trueAnomaly": 0.873,
+    "radius": 0.95,
+    "fill": "#ddd4c4"
+  },
+  {
+    "name": "Earth",
+    "semiMajorAxis": 1.0,
+    "eccentricity": 0.017,
+    "trueAnomaly": 6.23,
+    "radius": 1.0,
+    "fill": "#7591a7"
+  },
+  {
+    "name": "Mars",
+    "semiMajorAxis": 1.524,
+    "eccentricity": 0.093,
+    "trueAnomaly": 0.339,
+    "radius": 0.532,
+    "fill": "#946b48"
+  },
+  {
+    "name": "Jupiter",
+    "semiMajorAxis": 5.2,
+    "eccentricity": 0.05,
+    "trueAnomaly": 0.328,
+    "radius": 11.0,
+    "fill": "#b7aca1"
+  },
+  {
+    "name": "Saturn",
+    "semiMajorAxis": 9.58,
+    "eccentricity": 0.056,
+    "trueAnomaly": 5.59,
+    "radius": 9.01,
+    "fill": "#d0c0a3"
+  },
+  {
+    "name": "Uranus",
+    "semiMajorAxis": 19.23,
+    "eccentricity": 0.044,
+    "trueAnomaly": 2.5,
+    "radius": 4.0,
+    "fill": "#9bcad2"
+  },
+  {
+    "name": "Neptune",
+    "semiMajorAxis": 30.1,
+    "eccentricity": 0.011,
+    "trueAnomaly": 4.85,
+    "radius": 3.86,
+    "fill": "#6498d4"
+  }
+]
